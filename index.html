@@ -8,26 +8,34 @@
 </head>
 <body>
     <header>
+        <div>
+            <figure>
+                <img src="logo" alt="">logo
+            </figure>
+        
+
         <nav>
              <ol>  
                  <li>
-                     <a href="#">portafolio</a>
+                     <a href="#portafolio">portafolio</a>
                  </li>
                  <li>
-                    <a href="#">experiencia</a>
+                    <a href="#experiencia">experiencia</a>
                 </li>
                 <li>
                     <a>trabajemos</a>
                 </li>
              </ol>
-        </nav>
+        
+         </nav>
+        </div>
     </header>
     <section>
         <h1>hola soy <strong> john delgado</strong> <br><strong> desarollador iniciado</strong> <br> con <strong> de aprender </strong></h1>
         <img src="" alt="´logo y ubicacion" width="500" height="300">
 
     </section>
-    <section>
+    <section id="portafolio"> 
         <h2>portafolio (proyectos)</h2>
         <article>
             <h3>Git y GitHub </h3>
@@ -42,7 +50,7 @@
             <img src="img/imagen.pmg" alt="imagen de git" width="500">
         </article>
     </section>
-    <section>
+    <section id="experiencia">
         <h2>Mas sobre mi experiencia</h2>
         <article>
             <figure>
@@ -53,7 +61,13 @@
             <a href="">ver cuerso</a>
          </article>
     </section>
-    <section>contacto</section>
+    <section>
+        <form action="/suscripcion">
+            <h3>craemos algo juntos?</h3>
+            <input type="text" placeholder="dejeanos tu emael" id="email" value="@gmail.com">
+            <button>Enviar</button>
+        </form>
+    </section>
     <footer>footer</footer>
 </body>
 </html>
