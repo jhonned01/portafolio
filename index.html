@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi portafolio</title>
     <link rel="icon" type="img/png" href=""/>
-    <link rel="stylesheet" href="cc/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <header>
+    <header class="header">
         <div>
-            <figure>
+            <figure class="header-logo">
                 <img src="logo" alt="">logo
             </figure>
         
 
-        <nav>
+        <nav class="menu">
              <ol>  
                  <li>
                      <a href="#portafolio">portafolio</a>
@@ -31,44 +32,49 @@
          </nav>
         </div>
     </header>
-    <section>
-        <h1>hola soy <strong> john delgado</strong> <br><strong> desarollador iniciado</strong> <br> con <strong> de aprender </strong></h1>
-        <img src="" alt="´logo y ubicacion" width="500" height="300">
-
+    <section class="heroe">
+        <h1>hola soy <strong> john delgado</strong> <br><strong> desarollador</strong> iniciado <br> con <strong> de aprender </strong></h1>
+           
     </section>
-    <section id="portafolio"> 
+    <section id="portafolio" class="portafolio"> 
         <h2>portafolio (proyectos)</h2>
-        <article>
-            <h3>Git y GitHub </h3>
-            <p><small><strong> Fecha:</strong>01/07/2020</small></p>
-            <p><small><strong> puedes verlo:</strong>mi perfil de git</small></p>
+        <article class="portafolio-articulo">
+            <div class="div-portafolio">
 
-            <p>es una metodologia de control de versiones muy intersante en este caso el enfoque fue GitHub
+           
+            <h3 class="portafolio-titulo">Git y GitHub </h3>
+            <p class="portafolio-date"><small><strong> Fecha:</strong>01/07/2020</small></p>
+            <p class="portalio-url"><small><strong> puedes verlo:</strong>mi perfil de git</small></p>
+
+            <p class="portafolio-description">es una metodologia de control de versiones muy intersante en este caso el enfoque fue GitHub
                 . en el cual quedaras muy interesado en su forma y extructura de trabajemos
                 y lo puedes aplicar en mulplex oaciones dependiendo de tu proyectos
                 aunque descubriras que funciona mejor con archivos de texto plano.
             </p>
-            <img src="img/imagen.pmg" alt="imagen de git" width="500">
+            <figure class="portafolio-imgContainer">
+                <img class="porfatolio-img" src="img/platzi-video-react-native.png" alt="imagen de git" width="500">
+            </figure>
+        </div>
         </article>
     </section>
-    <section id="experiencia">
-        <h2>Mas sobre mi experiencia</h2>
-        <article>
-            <figure>
-                <img src="" alt="imagen xp" width="500" height="300">
+    <section id="experiencia" class="xp">
+        <h2 class="xp-title">Mas sobre mi experiencia</h2>
+        <article >
+            <figure class="xp-imgContainer">
+                <img class="xp-img" src="" alt="imagen xp" width="500" height="300">
             </figure>
-            <h3>Realizado en Platzi</h3>
-            <p>los fundamentos de este curso fueron aprendidos en plazi</p>
-            <a href="" target="_blank">ver cuerso</a>
+            <h3 class="xp-titulo">Realizado en Platzi</h3>
+            <p class="xp-descripcion">los fundamentos de este curso fueron aprendidos en plazi</p>
+            <a class="xp-url" href="" target="_blank">ver cuerso</a>
          </article>
     </section>
     <section id="contacto">
-        <form action="/suscripcion">
-            <h3>craemos algo juntos?</h3>
-            <input type="text" placeholder="dejeanos tu emael" id="email" value="@gmail.com">
+        <form action="/suscripcion" class="gmail">
+            <h3 class="gmail-titulo">craemos algo juntos?</h3>
+            <input  type="text" placeholder="dejeanos tu emael" id="email" value="@gmail.com">
             <button>Enviar</button>
         </form>
     </section>
-    <footer>footer</footer>
+    <footer class="footer">footer</footer>
 </body>
 </html>

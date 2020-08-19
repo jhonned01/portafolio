@@ -1,0 +1,55 @@
+body{
+font-family: "Source Sans Pro",sans-serif;
+}
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Fjalla One",Times,serif;
+}
+
+
+ h1{
+     line-height: 1.5;
+     font-size: 1 px;
+     letter-spacing: -.2px;
+     color: white;
+
+    }
+    h1 strong {
+        color: #026fff;
+    }
+.heroe{
+    height: 300px;
+    background-image: url('../img/hero.jpg');  
+    background-color: #1b2127; 
+    background-size: 500px 300px ;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+.portafolio-articulo{
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.portafolio-imgContainer{
+    width: 50%;
+    height: 350px;
+      
+}
+
+.header{
+    background-color: #1b2127;
+    
+
+}
+
+.header a {
+    color: white;
+      text-decoration: none;
+}
