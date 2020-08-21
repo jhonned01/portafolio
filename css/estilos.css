@@ -237,3 +237,38 @@ background: #f4fbff;
 .xp-title{
     margin-left: 20px;
 }
+
+.contac{
+    background-color: #056fff;
+    color: white;
+    height: 150px;
+    display: flex ;
+    align-items: center;
+}
+
+.social{
+       
+    border: 1px solid red;
+}
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+}
+
+.social-link.twitter{
+    background-image: url('../img/twitter.svg');
+    background-size: 50px 50px;
+    
+}
+.social-link.face{
+    background-image: url('../img/facebook.svg');
+    background-size: 50px 50px;
+    
+}
+.social-link.insta{
+    background-image: url('../img/instagram.svg');
+    background-size: 50px 50px;
+    
+}
