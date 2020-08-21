@@ -111,11 +111,28 @@ h6{
         background-position: right;
         margin-bottom: 10px;
         padding: 30px;
-        margin: 0px 30px 20px 30px;   
-        box-sizing: border-box;
-        width: 100%;
+        margin: 0px 40px 0px 40px;   
+        box-sizing: border-box;        
         height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
          }
+         .portafolio-titulo{
+            font-size: 30px;
+            margin-bottom: 10px;
+            margin-top: 37px;
+        }
+        .portafolio-description{
+            font-size: 20px;
+        }
+        .portafolio-date,.portalio-url{
+            margin: 10px;
+
+        }
+        .portafolio strong{
+            font-family: "Fjalla One",Times,serif;
+        }
 
 .porta1{
     width: 500px;
@@ -171,4 +188,52 @@ h6{
     height: inherit;
     padding: 0 20px 0 0;
 
+}
+.xp{
+    display: flex;
+
+}
+
+.event{
+ 
+ margin: 10px;
+ width: 480px;
+border-radius: 10px;
+overflow: hidden;
+flex-shrink: 0;
+background: #f4fbff;
+ 
+}
+.xp-img{ 
+    width: 480px;
+    height: 200px;
+    object-fit: cover; 
+    box-sizing: content-box;
+    
+}
+.xp-imgContainer{
+    margin: 0 0;
+}
+.even-detail{
+    background-color:white ;
+    margin: 20px 40px;
+    margin-top: -40px;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+.xp-description {
+    text-align: left;
+
+}
+.xp-url{
+    color: #056fff;
+    border: 1px solid ;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.xp-title{
+    margin-left: 20px;
 }
