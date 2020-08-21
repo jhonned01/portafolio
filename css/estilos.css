@@ -244,31 +244,58 @@ background: #f4fbff;
     height: 150px;
     display: flex ;
     align-items: center;
+    justify-content: space-between;
 }
 
 .social{
        
-    border: 1px solid red;
+    
 }
 .social-link {
     display: inline-block;
     width: 50px;
     height: 50px;
-    border: 1px solid white;
+  margin: 0 10px;
+    background-size: 50px 50px;
 }
 
 .social-link.twitter{
     background-image: url('../img/twitter.svg');
-    background-size: 50px 50px;
+    
     
 }
 .social-link.face{
     background-image: url('../img/facebook.svg');
-    background-size: 50px 50px;
+   
     
 }
 .social-link.insta{
     background-image: url('../img/instagram.svg');
-    background-size: 50px 50px;
     
+    
+}
+.gmail input{
+    border-color: grey;
+    padding: 10px 20px 10px 25px;
+    background-image: url('../img/envelope.svg');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x:5px ;
+    border-radius: 5px;
+    border-style: solid;
+}
+.gmail button{
+    padding: 1px 0;
+    display: block;
+   margin-top: 10px;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    width: 99px;
+    
+
+}
+.gmail h3{
+    font-family: "Fjalla One",Times,serif;  
 }
