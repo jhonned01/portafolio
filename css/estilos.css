@@ -60,7 +60,7 @@ h6{
     }
 
 .header-logo{
-    margin: 0;
+    margin: -27px;
 }
 .menu al {
     margin: 0;
@@ -92,14 +92,15 @@ h6{
     }
     .heroe{
         height: 300px;
-        background-image: url('../img/hero.jpg');  
+       
         background-color: #1b2127; 
-        background-size: 500px 300px ;
-        background-repeat: no-repeat;
-        background-position: right;
+        
         display: flex;
         align-items: center;
-        
+        justify-content: space-between;
+    }
+    .hero-img{
+        jus
     }
     
     .portafolio-articulo{
@@ -299,3 +300,15 @@ background: #f4fbff;
 .gmail h3{
     font-family: "Fjalla One",Times,serif;  
 }
+
+.container{
+    width: 1000px;
+    border: 30px solid red;
+    display: inherit;
+    justify-content: inherit;
+    margin: 0 auto ;
+    align-items: inherit;
+    height: inherit;
+  
+    
+    
